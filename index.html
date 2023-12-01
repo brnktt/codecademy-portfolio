@@ -5,21 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/773f6ac062.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <nav>
-      <img src="" alt="page-logo" />
-      <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Skills</a></li>
+      <h1>Alessandro Branchetti</h1>
+      <ul class="list">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="./contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
-      <section class="about-me"></section>
-      <section class="projects"></section>
-      <section class="skills"></section>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <div class="about-me__text">
+          <p>
+            👋🏼 I'm a dedicated Full-Stack Software Developer with a passion for crafting robust applications using the .NET framework and React.js. Over the last 4 years, I've honed my skills in designing, developing, and maintaining software solutions that solve real-world problems.
+          </p>
+          <p>
+            💻 My expertise extends to C#, JavaScript and SQL, and I've contributed to the success of various complex enterprise systems.
+          </p>
+          <p>
+            📚 What truly excites me about the world of software development is the continuous learning and innovation it demands.
+          </p>
+          <p>
+            ⚙️ The dynamic nature of technology keeps me motivated to stay on top of the latest trends and best practices in the field.
+          </p>
+          <p>
+            🚀 My goal is to bring value through efficient, scalable, and maintainable code that empowers businesses to thrive in the digital age. 
+          </p>
+          <p>
+            🔎 If you're seeking a developer to collaborate on a project or simply want to connect and exchange insights about the ever-evolving landscape of Full-Stack development, don't hesitate to reach out. 
+          </p>
+          <p>
+            🧑‍💻 Let's code the future together.
+          </p>
+          <p>
+            Fun fact! I've been programing for
+            <span id="time-container">6,563,167,279</span> seconds!
+          </p>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Luxoft - Groups Booking Software</h3>
+          </summary>
+          <img
+            src="./images/groups360.png"
+            alt="Lovelace's diagram from note G, the first published computer
+          algorithm"
+            class="project-image"
+          />
+          <p class="project-description">
+            I created different microservices from scratch, leading a small team of 2 developers.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>System Management - Cash Terminal</h3>
+          </summary>
+          <img
+            src="./images/mooney.png"
+            alt="An original model of part of the Analytical Engine"
+            class="project-image"
+          />
+          <p class="project-description">
+            I optimized response time of elements and removed 20-30% of useless code by refactoring legacy code.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>B-One - CRM Software</h3>
+          </summary>
+          <img
+            src="./images/b-one.png"
+            alt='Ada mascot, a black and cobalt blue hummingbird, flying above the
+          slogan "Time-tested, safe and secure"'
+            class="project-image"
+          />
+          <p class="project-description">
+            I supported 50+ clients with setup and customization of CRM software according to their commercial needs, increasing global revenue by 5-20% in first 6 months.
+          </p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <i class="fa-brands fa-html5 skill"></i>
+          <i class="fa-brands fa-css3-alt skill"></i>
+          <i class="fa-brands fa-js skill"></i>
+          <i class="fa-brands fa-react skill"></i>
+          <i class="fa-brands fa-aws skill"></i>
+          <i class="fa-brands fa-figma skill"></i>
+          <i class="fa-brands fa-git-alt skill"></i>
+          <i class="fa-solid fa-terminal skill"></i>
+          <i class="fa-brands fa-npm skill"></i>
+          <i class="fa-brands fa-node skill"></i>
+          <i class="fa-brands fa-github skill"></i>
+          <i class="fa-solid fa-database skill"></i>
+        </div>
+      </section>
     </main>
     <footer>Made by Alessandro</footer>
     <script src="./index.js"></script>
